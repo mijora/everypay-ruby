@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://www.everypay.gr/api'
   s.license     = 'MIT'
 
-  s.add_dependency('rest-client', '~> 1.8')
+  s.add_dependency('rest-client', '>= 1.8')
   s.add_dependency('json', '>= 2.3.0')
 
   s.add_development_dependency('mocha', '~> 1.1')
